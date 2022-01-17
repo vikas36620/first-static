@@ -1,0 +1,25 @@
+.wrapper{
+    height:100vh;
+    background: url("./images/camera.jpg") no-repeat;
+    background-size: cover;
+}
+
+.ord-onl{
+    border-radius: 20px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link.active{
+    color:#ffbe33 !important;
+}
+
+.nav-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+

@@ -1,0 +1,82 @@
+.banner{
+    border: 1px solid black;
+    height: 20rem;
+    width: 60%;
+    background:white;
+    margin: auto;
+}
+.orange,.white,.green{
+    height: calc(100%/3);
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: green;
+}
+
+.tiranga-chakra{
+    position: relative;
+    width: 99px;
+    height: 94%;
+    border: 3px solid blue;
+    margin: auto;
+    border-radius: 50%;
+    animation: spin 5s infinite linear;
+}
+.tiranga-chakra>div{
+    position:absolute;
+    top:0;
+    left:50%;
+    height: 100%;
+    width: 2px;
+    background: blue;
+}
+.sb{
+    transform: rotate(15deg);
+}
+.tb{
+    transform: rotate(30deg);
+}
+.fob{
+    transform: rotate(45deg);
+}
+
+.fib{
+    transform: rotate(60deg);
+}
+.sib{
+    transform: rotate(75deg);
+}
+
+.seb{
+    transform: rotate(90deg);
+}
+.eib{
+    transform: rotate(-15deg);
+}
+.ninb{
+    transform: rotate(-30deg);
+} 
+.teb{
+    transform: rotate(-45deg);
+}
+.elb{
+    transform: rotate(-60deg);
+}
+.tweb{
+    transform: rotate(-75deg);
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+
+

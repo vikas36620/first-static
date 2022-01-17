@@ -1,0 +1,23 @@
+.wrapper{
+    height: 100vh;
+    background:url('./images/car.jpg') no-repeat;
+    background-size: cover;
+}
+.ord-onl{
+    border-radius: 20px;
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+.nav-link.active{
+    color: tomato !important;
+}
+
+.nav-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
